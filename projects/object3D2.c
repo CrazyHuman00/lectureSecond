@@ -66,8 +66,6 @@ int main(void)
 
       HgWLine(layers, op[i].x * LINELONG + CENTER, op[i].y * LINELONG + CENTER, op[j].x * LINELONG + CENTER, op[j].y * LINELONG + CENTER);
 
-      //HgWLine(layers, op[4].x * LINELONG + CENTER, op[4].y * LINELONG + CENTER, op[5].x * LINELONG + CENTER, op[5].y * LINELONG + CENTER);
-
       HgWLine(layers, op[i].x * LINELONG + CENTER, op[i].y * LINELONG + CENTER, op[4].x * LINELONG + CENTER, op[4].y * LINELONG + CENTER);
 
       HgWLine(layers, op[i].x * LINELONG + CENTER, op[i].y * LINELONG + CENTER, op[5].x * LINELONG + CENTER, op[5].y * LINELONG + CENTER);

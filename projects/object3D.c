@@ -51,13 +51,12 @@ int main(void)
 
     for (int i = 0; i < vertex; i++)
     {
-      op[i].x = p[i].x;
-      op[i].y = p[i].y * c - p[i].z * s;
-      op[i].z = p[i].y * s + p[i].z * c;
+      op[i].x = p[i].x * c - p[i].z * s;
+      op[i].y = p[i].y;
+      op[i].z = p[i].x * s + p[i].z * c;
 
       op[i].x /= op[i].z + 4.0;
       op[i].y /= op[i].z + 4.0;
-
     }
 
 
